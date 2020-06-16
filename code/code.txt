@@ -1,0 +1,23 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int x = 75;
+	    grade(x);
+	    grade(95.9);
+	    grade(86);
+	    
+	}
+	public static void grade(double y){
+	    if(y>=90){
+	        System.out.println("A");
+	    }else if(y>=80){
+	         System.out.println("B");
+	    }else if(y>=70){
+	         System.out.println("C");
+	    }else if(y>=60){
+	         System.out.println("D");
+	    }else{
+	         System.out.println("F");
+	    }
+	}
+}
